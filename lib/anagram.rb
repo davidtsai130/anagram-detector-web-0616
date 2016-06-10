@@ -11,7 +11,6 @@ attr_accessor :word
       if word.split("").sort == @word.split("").sort
         matching << word
       end
-      matching
     end
   end
 
